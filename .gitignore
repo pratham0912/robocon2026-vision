@@ -60,7 +60,6 @@ test_mode.py
 spearhead_test.py
 spearhead_full.py
 SPEARHEAD_DATA.py
-annotate.py
 
 # OS
 .DS_Store
