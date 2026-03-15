@@ -1,0 +1,71 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Raw datasets — too large for Git
+Creating_data/
+Merged_Dataset/
+spearhead_full/
+spearhead_dataset/
+spearhead_full/
+CV_Detection/
+
+# Intermediate datasets and archives
+combined_dataset/
+combined_labels/
+full_dataset/
+dataset/
+SPEARHEAD_DATA/
+REAL_YOLO/
+YOLO_FAKE_KFS/
+*.zip
+
+# YOLO intermediate prediction runs (auto-generated)
+runs/detect/fist_pred/
+runs/detect/palm_pred/
+runs/detect/spear_pred/
+runs/detect/predict/
+FAKE_KFS_TRAINING_2/
+FULL_KFS_TRAINING/
+SPEARHEAD_FULL/
+
+# Pretrained base weights — downloaded automatically by Ultralytics
+yolov8s.pt
+yolov8m.pt
+yolo26n.pt
+
+# Experimental scripts not part of documented pipeline
+train_8m_1.py
+train_8m_2.py
+train_vm.py
+train_fine_tune.py
+merging_real_fake.py
+rename_imgz.py
+validation_split.py
+fix_dataset.py
+id_check.py
+color_detection.py
+test.py
+test_new.py
+test_mode.py
+spearhead_test.py
+spearhead_full.py
+SPEARHEAD_DATA.py
+annotate.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.csv

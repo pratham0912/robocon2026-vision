@@ -1,0 +1,24 @@
+# Spearhead detection dataset configuration
+#
+# 'path' is the root of the dataset relative to this file's location.
+# Update to an absolute path if you place spearhead_full/ elsewhere.
+#
+# Expected structure:
+#   spearhead_full/
+#   ├── train/
+#   │   ├── images/   ← .jpg files
+#   │   └── labels/   ← .txt files (YOLO format)
+#   └── val/
+#       ├── images/
+#       └── labels/
+
+path: ./spearhead_full
+
+train: train/images
+val: val/images
+
+# Class names — order must match class IDs in all .txt label files
+names:
+  0: SPEAR
+  1: FIST
+  2: PALM

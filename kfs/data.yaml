@@ -1,0 +1,53 @@
+# KFS classification dataset configuration
+#
+# 30 classes: 15 Fake KFS (random patterns) + 15 Real KFS (Oracle Bone Characters)
+#
+# Per ABU Robocon 2026 rulebook Section 16:
+#   - FAKE_1 to FAKE_15: Random pattern scrolls — R2 must NEVER collect these
+#   - REAL_1 to REAL_15: Oracle Bone Character (甲骨文) scrolls — R2 must collect these
+#
+# Expected structure:
+#   Merged_Dataset/
+#   ├── train/
+#   │   ├── images/
+#   │   └── labels/
+#   └── val/
+#       ├── images/
+#       └── labels/
+
+path: ./Merged_Dataset
+
+train: train/images
+val: val/images
+
+names:
+  0:  FAKE_1
+  1:  FAKE_2
+  2:  FAKE_3
+  3:  FAKE_4
+  4:  FAKE_5
+  5:  FAKE_6
+  6:  FAKE_7
+  7:  FAKE_8
+  8:  FAKE_9
+  9:  FAKE_10
+  10: FAKE_11
+  11: FAKE_12
+  12: FAKE_13
+  13: FAKE_14
+  14: FAKE_15
+  15: REAL_1
+  16: REAL_2
+  17: REAL_3
+  18: REAL_4
+  19: REAL_5
+  20: REAL_6
+  21: REAL_7
+  22: REAL_8
+  23: REAL_9
+  24: REAL_10
+  25: REAL_11
+  26: REAL_12
+  27: REAL_13
+  28: REAL_14
+  29: REAL_15

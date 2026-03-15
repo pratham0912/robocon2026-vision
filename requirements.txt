@@ -1,0 +1,21 @@
+# Core
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# PyTorch — CPU build installed by default.
+# For GPU training and real-time inference, replace with the CUDA build:
+#
+#   CUDA 11.8:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+#   CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilities (most are pulled in by ultralytics automatically)
+numpy>=1.24.0
+Pillow>=9.0.0
+PyYAML>=6.0
+tqdm>=4.64.0
