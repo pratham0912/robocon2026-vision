@@ -122,32 +122,9 @@ robocon2026-vision/
 
 ## 4. Results
 
-### Spearhead Detection
+Training metrics, confusion matrices, PR curves, F1 curves, and sample validation predictions for both subsystems are documented in full here:
 
-| Metric | Plot |
-|--------|------|
-| Training curves | ![Results](spearhead/results/results.png) |
-| Confusion Matrix | ![Confusion Matrix](spearhead/results/confusion_matrix.png) |
-| PR Curve | ![PR Curve](spearhead/results/BoxPR_curve.png) |
-| F1 Curve | ![F1 Curve](spearhead/results/BoxF1_curve.png) |
-
-| Ground Truth | Predictions |
-|-------------|-------------|
-| ![Labels](spearhead/results/val_batch0_labels.jpg) | ![Pred](spearhead/results/val_batch0_pred.jpg) |
-
-### KFS Classification
-
-| Metric | Plot |
-|--------|------|
-| Training curves | ![Results](kfs/results/results.png) |
-| Confusion Matrix | ![Confusion Matrix](kfs/results/confusion_matrix.png) |
-| PR Curve | ![PR Curve](kfs/results/BoxPR_curve.png) |
-| F1 Curve | ![F1 Curve](kfs/results/BoxF1_curve.png) |
-
-| Ground Truth | Predictions |
-|-------------|-------------|
-| ![Labels](kfs/results/val_batch0_labels.jpg) | ![Pred](kfs/results/val_batch0_pred.jpg) |
-
+**[→ View Results](docs/results.md)**
 ---
 
 ## 5. Environment Setup
