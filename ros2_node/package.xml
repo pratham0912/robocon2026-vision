@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>spearhead_detector</name>
+  <version>0.1.0</version>
+  <description>
+    ROS2 node for spearhead detection, 3-D localisation, and stable ID tracking
+    using Intel RealSense D435i + YOLOv8s — ABU Robocon 2026 "Kung Fu Quest".
+  </description>
+  <maintainer email="pratham0912@github.com">pratham0912</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

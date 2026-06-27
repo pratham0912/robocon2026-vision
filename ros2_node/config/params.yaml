@@ -1,0 +1,9 @@
+spearhead_detector:
+  ros__parameters:
+    weights: ""
+    conf: 0.70
+    iou:  0.70
+    imgsz: 768
+    display: true
+    picked_holdout: 5.0
+    waypoint_dist: 0.25
