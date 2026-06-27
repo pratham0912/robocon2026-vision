@@ -1,0 +1,27 @@
+# ROS2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+venv310/
+.venv/
+
+# VSCode
+.vscode/
+
+# Linux
+*.swp
+.DS_Store
+
+# Colcon
+compile_commands.json
+
+# Logs
+*.log

@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+pupil-apriltags
+torch
+torchvision
+torchaudio
+numpy
